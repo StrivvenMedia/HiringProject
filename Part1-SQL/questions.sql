@@ -32,7 +32,9 @@ SELECT *
 -- write a statement that returns all the users data
 --   including their primary email, if they have one
 --   and if they are an admin or not
-
+SELECT *
+  FROM users
+  WHERE lname = 'james'
 
 
 -- QUESTION 2
